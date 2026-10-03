@@ -1,0 +1,143 @@
+{
+  "source": "BTS Reporting Carrier On-Time Performance",
+  "year": 2025,
+  "sample_rule": "15,000 smallest SHA256 flight keys per month; no label stratification",
+  "target": "Departure delay >=15 minutes (DepDel15)",
+  "scope": "US reported domestic operated flights with observed departure label and valid scheduled fields; cancellations excluded; diversions retained if departure observed",
+  "sources": [
+    {
+      "month": 1,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+      "sha256": "868387dcedaef1b8d8392e608e642219fde50d594c3cf2094aec858167629ccf",
+      "source_rows": 539747,
+      "eligible_rows": 523435,
+      "sample_rows": 15000,
+      "delayed_rate": 0.18213333333333334
+    },
+    {
+      "month": 2,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+      "sha256": "12dc8dbdb3c8b3c20d4c00a8b188196ae202f781a8760871ae502a9c733d0ecd",
+      "source_rows": 504884,
+      "eligible_rows": 497479,
+      "sample_rows": 15000,
+      "delayed_rate": 0.19546666666666668
+    },
+    {
+      "month": 3,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+      "sha256": "9c80fbc2112cdbf3f0613ec2001ba019b3ad75511cd69657080736e7eda9cef4",
+      "source_rows": 600872,
+      "eligible_rows": 593949,
+      "sample_rows": 15000,
+      "delayed_rate": 0.19633333333333333
+    },
+    {
+      "month": 4,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+      "sha256": "f3718431e988e2afd53a1714dfca37f67355b6fc06b02eb506bffa39300d608c",
+      "source_rows": 583950,
+      "eligible_rows": 579036,
+      "sample_rows": 15000,
+      "delayed_rate": 0.184
+    },
+    {
+      "month": 5,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+      "sha256": "17c3419d7169b313b2bc8ddd3fd57e1e2d4d959c35f2da17f6a5610d4bac7d63",
+      "source_rows": 605648,
+      "eligible_rows": 599304,
+      "sample_rows": 15000,
+      "delayed_rate": 0.22613333333333333
+    },
+    {
+      "month": 6,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+      "sha256": "087b75e4e059516ca1181e58955d062f341933adb2706e5b2404ed10c9ecbdc6",
+      "source_rows": 611575,
+      "eligible_rows": 601839,
+      "sample_rows": 15000,
+      "delayed_rate": 0.283
+    },
+    {
+      "month": 7,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+      "sha256": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+      "source_rows": 631428,
+      "eligible_rows": 615955,
+      "sample_rows": 15000,
+      "delayed_rate": 0.2874
+    },
+    {
+      "month": 8,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+      "sha256": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+      "source_rows": 602378,
+      "eligible_rows": 595895,
+      "sample_rows": 15000,
+      "delayed_rate": 0.2304
+    },
+    {
+      "month": 9,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+      "sha256": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+      "source_rows": 562439,
+      "eligible_rows": 559553,
+      "sample_rows": 15000,
+      "delayed_rate": 0.16906666666666667
+    },
+    {
+      "month": 10,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+      "sha256": "05d14d3fd67fa3e04b97c4d6bc7386f4a6c1cda13d2506cf0e9f0a6c620ed111",
+      "source_rows": 605844,
+      "eligible_rows": 602640,
+      "sample_rows": 15000,
+      "delayed_rate": 0.19166666666666668
+    },
+    {
+      "month": 11,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+      "sha256": "6d5b68eea3ebb25f3cb2843e701a6c809b5455301b3bbd7802a20d522ed770c8",
+      "source_rows": 570550,
+      "eligible_rows": 556351,
+      "sample_rows": 15000,
+      "delayed_rate": 0.19546666666666668
+    },
+    {
+      "month": 12,
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+      "sha256": "a2af96d186bc9997fef47382b8589198281c9a722286d88f30032af8ee7dcd0f",
+      "source_rows": 582304,
+      "eligible_rows": 573303,
+      "sample_rows": 15000,
+      "delayed_rate": 0.26966666666666667
+    }
+  ],
+  "splits": {
+    "calibration": {
+      "n": 15000,
+      "start": "2025-09-01",
+      "end": "2025-09-30",
+      "delay_rate": 0.16906666666666667
+    },
+    "policy": {
+      "n": 15000,
+      "start": "2025-10-01",
+      "end": "2025-10-31",
+      "delay_rate": 0.19166666666666668
+    },
+    "test": {
+      "n": 30000,
+      "start": "2025-11-01",
+      "end": "2025-12-31",
+      "delay_rate": 0.23256666666666667
+    },
+    "train": {
+      "n": 120000,
+      "start": "2025-01-01",
+      "end": "2025-08-31",
+      "delay_rate": 0.22310833333333333
+    }
+  }
+}

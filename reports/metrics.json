@@ -1,0 +1,106 @@
+{
+  "selected": {
+    "average_precision": 0.34348544682867926,
+    "roc_auc": 0.6552437971510576,
+    "brier": 0.17794378227683152,
+    "precision": 0.4157722818478768,
+    "recall": 0.1277053174716927,
+    "queue_rate": 0.07143333333333333,
+    "threshold": 0.25129464466697565,
+    "precision_at20": 0.37016666666666664,
+    "recall_at20": 0.3183316611724237,
+    "lift_at20": 1.5916583058621183,
+    "confusion_matrix": [
+      [
+        21771,
+        1252
+      ],
+      [
+        6086,
+        891
+      ]
+    ]
+  },
+  "logistic_baseline": {
+    "average_precision": 0.3303117366605074,
+    "roc_auc": 0.6441317965643234,
+    "brier": 0.18109863910244553,
+    "precision": 0.36938973199870845,
+    "recall": 0.16396732119822274,
+    "queue_rate": 0.10323333333333333,
+    "threshold": 0.22951758577639475,
+    "precision_at20": 0.35433333333333333,
+    "recall_at20": 0.3047154937652286,
+    "lift_at20": 1.523577468826143,
+    "confusion_matrix": [
+      [
+        21070,
+        1953
+      ],
+      [
+        5833,
+        1144
+      ]
+    ]
+  },
+  "test_n": 30000,
+  "test_delay_rate": 0.23256666666666667,
+  "policy_metrics": {
+    "selected": {
+      "average_precision": 0.32516098726934317,
+      "roc_auc": 0.6890732263558942,
+      "brier": 0.14491643459208228,
+      "precision": 0.3616666666666667,
+      "recall": 0.3773913043478261,
+      "queue_rate": 0.2,
+      "threshold": 0.25129464466697565,
+      "precision_at20": 0.3616666666666667,
+      "recall_at20": 0.3773913043478261,
+      "lift_at20": 1.8869565217391304,
+      "confusion_matrix": [
+        [
+          10210,
+          1915
+        ],
+        [
+          1790,
+          1085
+        ]
+      ]
+    },
+    "logistic_baseline": {
+      "average_precision": 0.30896361205723344,
+      "roc_auc": 0.6803852191842223,
+      "brier": 0.1472748640734609,
+      "precision": 0.3416666666666667,
+      "recall": 0.3565217391304348,
+      "queue_rate": 0.2,
+      "threshold": 0.22951758577639475,
+      "precision_at20": 0.3416666666666667,
+      "recall_at20": 0.3565217391304348,
+      "lift_at20": 1.7826086956521738,
+      "confusion_matrix": [
+        [
+          10150,
+          1975
+        ],
+        [
+          1850,
+          1025
+        ]
+      ]
+    }
+  },
+  "development_means": {
+    "lightgbm_15": 0.401601714456189,
+    "logistic_c01": 0.394242318126678,
+    "lightgbm_31": 0.3936582266921179,
+    "logistic_c1": 0.38931244012264354
+  },
+  "ap_delta_day_bootstrap95": [
+    0.0037872793527500464,
+    0.023036313424898276
+  ],
+  "bootstrap_note": "300 paired calendar-day block resamples; serial dependence between days is not modeled",
+  "runtime_seconds": 21.0
+}

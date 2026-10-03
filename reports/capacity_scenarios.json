@@ -1,0 +1,172 @@
+[
+  {
+    "capacity": 5,
+    "selected": {
+      "queue": 1500,
+      "identified": 640,
+      "precision": 0.4266666666666667,
+      "recall": 0.09172996990110363,
+      "lift": 1.8345993980220725
+    },
+    "logistic_baseline": {
+      "queue": 1500,
+      "identified": 594,
+      "precision": 0.396,
+      "recall": 0.0851368783144618,
+      "lift": 1.7027375662892361
+    }
+  },
+  {
+    "capacity": 10,
+    "selected": {
+      "queue": 3000,
+      "identified": 1199,
+      "precision": 0.39966666666666667,
+      "recall": 0.17185036548659882,
+      "lift": 1.7185036548659882
+    },
+    "logistic_baseline": {
+      "queue": 3000,
+      "identified": 1108,
+      "precision": 0.36933333333333335,
+      "recall": 0.15880751039128566,
+      "lift": 1.5880751039128564
+    }
+  },
+  {
+    "capacity": 15,
+    "selected": {
+      "queue": 4500,
+      "identified": 1723,
+      "precision": 0.3828888888888889,
+      "recall": 0.24695427834312741,
+      "lift": 1.6463618556208495
+    },
+    "logistic_baseline": {
+      "queue": 4500,
+      "identified": 1613,
+      "precision": 0.35844444444444445,
+      "recall": 0.23118818976637523,
+      "lift": 1.5412545984425015
+    }
+  },
+  {
+    "capacity": 20,
+    "selected": {
+      "queue": 6000,
+      "identified": 2221,
+      "precision": 0.37016666666666664,
+      "recall": 0.3183316611724237,
+      "lift": 1.5916583058621183
+    },
+    "logistic_baseline": {
+      "queue": 6000,
+      "identified": 2126,
+      "precision": 0.35433333333333333,
+      "recall": 0.3047154937652286,
+      "lift": 1.523577468826143
+    }
+  },
+  {
+    "capacity": 25,
+    "selected": {
+      "queue": 7500,
+      "identified": 2692,
+      "precision": 0.3589333333333333,
+      "recall": 0.3858391858965171,
+      "lift": 1.5433567435860684
+    },
+    "logistic_baseline": {
+      "queue": 7500,
+      "identified": 2597,
+      "precision": 0.34626666666666667,
+      "recall": 0.37222301848932204,
+      "lift": 1.4888920739572882
+    }
+  },
+  {
+    "capacity": 30,
+    "selected": {
+      "queue": 9000,
+      "identified": 3143,
+      "precision": 0.3492222222222222,
+      "recall": 0.4504801490612011,
+      "lift": 1.5016004968706702
+    },
+    "logistic_baseline": {
+      "queue": 9000,
+      "identified": 3046,
+      "precision": 0.33844444444444444,
+      "recall": 0.43657732549806505,
+      "lift": 1.4552577516602168
+    }
+  },
+  {
+    "capacity": 35,
+    "selected": {
+      "queue": 10500,
+      "identified": 3548,
+      "precision": 0.33790476190476193,
+      "recall": 0.5085280206392432,
+      "lift": 1.4529372018264093
+    },
+    "logistic_baseline": {
+      "queue": 10500,
+      "identified": 3509,
+      "precision": 0.3341904761904762,
+      "recall": 0.5029382255983947,
+      "lift": 1.4369663588525563
+    }
+  },
+  {
+    "capacity": 40,
+    "selected": {
+      "queue": 12000,
+      "identified": 3964,
+      "precision": 0.3303333333333333,
+      "recall": 0.5681525010749606,
+      "lift": 1.4203812526874013
+    },
+    "logistic_baseline": {
+      "queue": 12000,
+      "identified": 3924,
+      "precision": 0.327,
+      "recall": 0.5624193779561416,
+      "lift": 1.406048444890354
+    }
+  },
+  {
+    "capacity": 45,
+    "selected": {
+      "queue": 13500,
+      "identified": 4348,
+      "precision": 0.32207407407407407,
+      "recall": 0.6231904830156227,
+      "lift": 1.3848677400347171
+    },
+    "logistic_baseline": {
+      "queue": 13500,
+      "identified": 4300,
+      "precision": 0.31851851851851853,
+      "recall": 0.61631073527304,
+      "lift": 1.3695794117178668
+    }
+  },
+  {
+    "capacity": 50,
+    "selected": {
+      "queue": 15000,
+      "identified": 4706,
+      "precision": 0.3137333333333333,
+      "recall": 0.6745019349290526,
+      "lift": 1.349003869858105
+    },
+    "logistic_baseline": {
+      "queue": 15000,
+      "identified": 4660,
+      "precision": 0.31066666666666665,
+      "recall": 0.6679088433424107,
+      "lift": 1.3358176866848215
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "candidates": {
+    "logistic_c01": {
+      "kind": "logistic",
+      "C": 0.1
+    },
+    "logistic_c1": {
+      "kind": "logistic",
+      "C": 1.0
+    },
+    "lightgbm_15": {
+      "kind": "lightgbm",
+      "leaves": 15,
+      "trees": 250
+    },
+    "lightgbm_31": {
+      "kind": "lightgbm",
+      "leaves": 31,
+      "trees": 400
+    }
+  },
+  "selected": "lightgbm_15",
+  "selection": "Mean average precision across two expanding temporal development windows",
+  "train_months": [
+    1,
+    8
+  ],
+  "calibration_month": 9,
+  "policy_month": 10,
+  "test_months": [
+    11,
+    12
+  ],
+  "threshold_rule": "80th percentile of October calibrated scores, separately per model; fixed thereafter",
+  "thresholds": {
+    "selected": 0.25129464466697565,
+    "logistic_baseline": 0.22951758577639475
+  },
+  "raw_inputs": [
+    "Reporting_Airline",
+    "Origin",
+    "Dest",
+    "CRSDepTime",
+    "Month",
+    "DayOfWeek",
+    "Distance",
+    "CRSElapsedTime"
+  ],
+  "target": "DepDel15 = 1, departure delay >=15 minutes"
+}
